@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<File>
+    <TokenList>
+        <Token>abc</Token>
+        <Token>(</Token>
+        <Token>i</Token>
+        <Token>)</Token>
+        <Token>0</Token>
+        <Token>5</Token>
+        <Token>{</Token>
+        <Token>;</Token>
+        <Token>&lt;</Token>
+        <Token>=</Token>
+        <Token>}</Token>
+    </TokenList>
+</File>
