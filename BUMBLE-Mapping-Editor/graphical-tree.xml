@@ -1,0 +1,20 @@
+<?xml version="1.0"?> 
+<Selection>
+  <Concept>
+     <name>Buffer</name>
+     <SubConcept>
+        <name>Input</name>
+        <name>Output</name>
+     </SubConcept>
+  </Concept>
+  <Concept>
+     <name>Action</name>
+     <SubConcept>
+        <name>Implicit</name>
+        <name>Explicit</name>
+     </SubConcept>
+  </Concept>
+   <Concept>
+     <name>Resource</name>
+  </Concept>
+</Selection>

@@ -1,0 +1,181 @@
+/**
+ * JavaCC template file created by SF JavaCC plugin 1.5.17+ wizard for JavaCC 1.5.0+
+ */
+
+PARSER_BEGIN(EG1)
+import java.util.ArrayList;
+import java.util.List;
+public class EG1
+{
+	static List<String> equi_textual;
+	static List<String> equi_graphical;
+  static public List getEqui() {
+		 if (!equi_graphical.isEmpty()) {
+			 return equi_graphical;
+		 }
+		 if (!equi_textual.isEmpty()) {
+			 return equi_textual;
+		 }
+		 else { return equi_graphical;}	
+	 }
+  }
+
+PARSER_END(EG1)
+
+SKIP :
+{
+  " "
+| "\r"
+| "\t"
+| "\n"
+}
+
+/* RESERVED WORDS AND LITERALS */
+TOKEN :
+{
+  < CONTAINMENT: "Containment" >
+| < ACTION: "action" >
+| < DATABUF: "data_buff">
+
+}
+
+/* Bracket */
+TOKEN :
+{
+  < OPENBRACKET: "{" >
+| < CLOSEBRACKET: "}" >
+| < TERMINATOR: ";" >
+
+}
+
+TOKEN : 
+{
+  <TYPE : "input"|"output">
+}
+
+TOKEN : 
+{
+  <NAME : (["a"-"z", "A"-"Z","0"-"9"])*>
+}
+
+
+TOKEN : 
+{
+  <SYMBOL : (["a"-"z", "A"-"Z","0"-"9","/","\\"])*>
+}
+
+
+
+
+
+
+
+int start() :
+{equi_textual= new ArrayList<String>();
+   equi_graphical= new ArrayList<String>();}
+{
+  wff()   // "well formed formula"  
+  {
+    return 0;  // returns 0 on successful parse
+  }
+}
+
+  
+void wff() :
+{}
+{
+action ()
+}
+
+
+void action ():
+{ }
+{
+ (   graphicalaction()
+|
+   textualaction()
+)
+ <EOF>
+ }
+
+
+void textualaction():
+{ Token name;}
+{
+  LOOKAHEAD(4)"action" name=<NAME> "{""}"
+  {
+     equi_graphical.add(name.toString());
+	  equi_graphical.add("randomsymbol");
+  }
+| 
+  "action" name=<NAME> 
+  {
+      equi_graphical.add(name.toString());
+  	    equi_graphical.add("randomsymbol");
+  	    equi_graphical.add("Containment");
+  	    equi_graphical.add("randomsymbol"); }
+   "{" (textualdatabuffer())*  "}"
+}
+
+void graphicalaction():
+{Token name; }
+{
+
+ LOOKAHEAD(3) name=<NAME><SYMBOL><EOF>
+ {
+    equi_textual.add("action");
+    equi_textual.add(name.toString());
+    equi_textual.add("{");
+    equi_textual.add("}");
+ }
+
+| 
+  name=<NAME><SYMBOL>relationship()
+  {  equi_textual.add("action");
+     equi_textual.add(name.toString());
+     equi_textual.add("{");}
+  (graphicaldatabuffer())*
+
+  {equi_textual.add("}");}
+}
+
+
+void databuffer():
+{}
+{
+  LOOKAHEAD(2)textualdatabuffer()
+|
+  graphicaldatabuffer()
+}
+
+
+void relationship() :
+{}
+{
+  
+  "Containment" <SYMBOL>
+}
+
+void textualdatabuffer():
+{Token t,n;}
+{
+  t=<TYPE> "data_buff" n=<NAME> ";"
+  {
+    equi_graphical.add(t.toString());
+	equi_graphical.add(n.toString());
+	equi_graphical.add("randSymbol");
+  }
+}
+
+void graphicaldatabuffer():
+{Token t,n;}
+{t=< TYPE >
+  n=<NAME>
+  <SYMBOL>
+  {
+    equi_textual.add(t.toString());
+    equi_textual.add("data_buff");
+    equi_textual.add(n.toString());
+    equi_textual.add(";");
+     }
+}

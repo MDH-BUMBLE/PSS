@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="metamodel" nsURI="http://www.example.org/metamodel" nsPrefix="metamodel">
+  <eClassifiers xsi:type="ecore:EClass" name="Abstract_Component" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Component_identifier" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="action" upperBound="-1"
+        eType="#//Action" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="extends" upperBound="-1"
+        eType="#//Abstract_Component"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="pool" upperBound="-1" eType="#//pool"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Object_identifier" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Component" eSuperTypes="#//Abstract_Component">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="data_object" upperBound="-1"
+        eType="#//Data_Object" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DataFlow_Object" abstract="true" eSuperTypes="#//Object"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Data_Object" abstract="true" eSuperTypes="#//Object"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Resource" eSuperTypes="#//Data_Object">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type_identifier" eType="#//Resource_kind"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="Resource_kind">
+    <eLiterals name="None"/>
+    <eLiterals name="rand" value="1"/>
+    <eLiterals name="lock" value="2"/>
+    <eLiterals name="share" value="3"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RootComponent" eSuperTypes="#//Abstract_Component">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="component_invocation" upperBound="-1"
+        eType="#//Component_Invocation" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="action_invocation" eType="#//Action_invocation"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Action">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="action_identifier" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="object" upperBound="-1"
+        eType="#//Object" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="activity" upperBound="-1"
+        eType="#//Activity" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Activity">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="action_invocation" upperBound="-1"
+        eType="#//Action_invocation" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PssModel">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="component_declaration"
+        upperBound="-1" eType="#//Abstract_Component" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="action" upperBound="-1"
+        eType="#//Action" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Component_Invocation" eSuperTypes="#//Component">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="component" upperBound="-1"
+        eType="#//Component"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Stream" eSuperTypes="#//DataFlow_Object">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="input" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="output" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+        defaultValueLiteral="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Buffer" eSuperTypes="#//DataFlow_Object">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="input" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+        defaultValueLiteral="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="output" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+        defaultValueLiteral="false"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="pool">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="object" upperBound="-1"
+        eType="#//Object" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Action_invocation" eSuperTypes="#//Action">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="action_instance" upperBound="-1"
+        eType="#//Action"/>
+  </eClassifiers>
+</ecore:EPackage>

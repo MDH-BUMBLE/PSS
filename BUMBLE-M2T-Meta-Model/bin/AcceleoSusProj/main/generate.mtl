@@ -1,0 +1,59 @@
+[comment encoding = UTF-8 /]
+[module generate('http://www.eclipse.org/emf/2002/Ecore')]
+
+[template public generateElement(anEClass : EClass)]
+
+[file (anEClass.ePackage.name.replaceAll('\\.','/').concat('.xml'), false, 'UTF-8')]
+[comment @main/]
+<?xml version="1.0" encoding="UTF-8"?>
+
+<concepts>
+[for (c: EClassifier | ePackage.eClassifiers)]
+<concept>
+
+<name> 
+[c.name.toUpperFirst()/]
+</name>
+
+<attributes> 		
+[for (p: EAttribute | anEClass.eAttributes) ]
+[p.eAttributeType.name/] [p.name/]
+[/for]
+</attributes>
+
+<operations>
+[for (o: EOperation | anEClass.eOperations) ]
+[o.name/]
+<parameters>
+[o.eParameters.eType.name/] [o.eParameters.name/]
+</parameters>
+[/for]
+</operations>
+
+<references>
+[for (a: EReference | anEClass.eReferences)]
+<name>
+[a.name/]
+</name>
+<lowerBound>
+[a.lowerBound/]
+</lowerBound>
+<upperBound>
+[a.upperBound/]
+</upperBound>
+<containingClass>
+[a.eContainingClass.name/]
+</containingClass>
+<connectedClass>
+[a.eReferenceType.name/]
+</connectedClass>
+
+[/for]
+</references>
+</concept>
+
+[/for]
+</concepts>
+[/file]
+
+[/template]

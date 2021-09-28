@@ -1,0 +1,21 @@
+<?xml version="1.0"?> 
+<Selection>
+  <Symbols>
+     <symbol>
+	<id>1</id>
+        <name>Action</name>
+	<path>Action.png</path>
+     </symbol>
+     <symbol>
+	<id>2</id>
+        <name>Buffer</name>
+	<path>Buffer.png</path>
+     </symbol>
+     
+     <symbol>
+	<id>3</id>
+        <name>Component</name>
+	<path>Component.png</path>
+     </symbol>
+  </Symbols>
+</Selection>
