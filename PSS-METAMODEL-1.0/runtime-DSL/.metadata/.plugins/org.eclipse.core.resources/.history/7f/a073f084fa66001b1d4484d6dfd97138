@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:metamodel="http://www.example.org/metamodel" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_KDkaYFtZEeuiHMl8_2zSFw" selectedViews="_2h8csGOOEeuhbP76z0fIWQ" version="14.3.1.202003261200">
+    <semanticResources>TEST.metamodel</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_Y03w0GODEeu7lIQYKuoGXA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/pss.dsl.visualization.design/description/visualization.odesign#//@ownedViewpoints[name='PssMetaModel']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_2h8csGOOEeuhbP76z0fIWQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_hVxvAGOQEeuhbP76z0fIWQ" name="PSSModel Diagram" repPath="#_hVwg4GOQEeuhbP76z0fIWQ" changeId="5efb64ec-ad7c-484d-a3b9-ef0d0212bf9b">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']"/>
+        <target xmi:type="metamodel:PssModel" href="TEST.metamodel#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_hVwg4GOQEeuhbP76z0fIWQ">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_hVyWEGOQEeuhbP76z0fIWQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_hVyWEWOQEeuhbP76z0fIWQ" type="Sirius" element="_hVwg4GOQEeuhbP76z0fIWQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_xicx8GOQEeuhbP76z0fIWQ" type="2001" element="_xgrQUGOQEeuhbP76z0fIWQ">
+          <children xmi:type="notation:Node" xmi:id="_xidZAGOQEeuhbP76z0fIWQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xidZAWOQEeuhbP76z0fIWQ" y="-24"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1WuU0GOQEeuhbP76z0fIWQ" type="3005" element="_1WRo4GOQEeuhbP76z0fIWQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_1WuU0WOQEeuhbP76z0fIWQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1WuU0mOQEeuhbP76z0fIWQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xicx8WOQEeuhbP76z0fIWQ" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xicx8mOQEeuhbP76z0fIWQ" x="330" y="84" width="76" height="76"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_B0-TUGOTEeuFLsUtgSFRjA" type="2001" element="_Bz3gEmOTEeuFLsUtgSFRjA">
+          <children xmi:type="notation:Node" xmi:id="_B1HdQGOTEeuFLsUtgSFRjA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_B1HdQWOTEeuFLsUtgSFRjA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_B1HdQmOTEeuFLsUtgSFRjA" type="3005" element="_Bz3gE2OTEeuFLsUtgSFRjA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_B1HdQ2OTEeuFLsUtgSFRjA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B1HdRGOTEeuFLsUtgSFRjA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_B0-TUWOTEeuFLsUtgSFRjA" fontColor="16777215" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B0-TUmOTEeuFLsUtgSFRjA" x="105" y="291" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ovKusGOhEeuYY-MLp09ZMQ" type="2001" element="_ovA9umOhEeuYY-MLp09ZMQ">
+          <children xmi:type="notation:Node" xmi:id="_ovUfsGOhEeuYY-MLp09ZMQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ovUfsWOhEeuYY-MLp09ZMQ" x="-27" y="80"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ovUft2OhEeuYY-MLp09ZMQ" type="3005" element="_ovA9u2OhEeuYY-MLp09ZMQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ovUfuGOhEeuYY-MLp09ZMQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ovUfuWOhEeuYY-MLp09ZMQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ovKusWOhEeuYY-MLp09ZMQ" fontColor="3465866" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ovKusmOhEeuYY-MLp09ZMQ" x="870" y="159" width="76" height="78"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ovUfsmOhEeuYY-MLp09ZMQ" type="2001" element="_ovA9vWOhEeuYY-MLp09ZMQ">
+          <children xmi:type="notation:Node" xmi:id="_ovUftWOhEeuYY-MLp09ZMQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ovUftmOhEeuYY-MLp09ZMQ" x="65" y="56"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ovUfumOhEeuYY-MLp09ZMQ" type="3005" element="_ovA9vmOhEeuYY-MLp09ZMQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ovUfu2OhEeuYY-MLp09ZMQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ovUfvGOhEeuYY-MLp09ZMQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ovUfs2OhEeuYY-MLp09ZMQ" fontColor="3465866" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ovUftGOhEeuYY-MLp09ZMQ" x="837" width="64" height="78"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_DqCRUGOwEeuBuvOT_3wMYA" type="2001" element="_Dp4gYGOwEeuBuvOT_3wMYA">
+          <children xmi:type="notation:Node" xmi:id="_DqCRU2OwEeuBuvOT_3wMYA" visible="false" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_DqCRVGOwEeuBuvOT_3wMYA" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DqCRVWOwEeuBuvOT_3wMYA" type="3005" element="_Dp4gYWOwEeuBuvOT_3wMYA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_DqCRVmOwEeuBuvOT_3wMYA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DqCRV2OwEeuBuvOT_3wMYA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DqCRUWOwEeuBuvOT_3wMYA" fontColor="4539717" fontName="Segoe UI" fontHeight="1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DqCRUmOwEeuBuvOT_3wMYA" x="168" y="-44" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_GDbAQGWBEeufvo4097dvsA" type="2001" element="_GBYY4GWBEeufvo4097dvsA">
+          <children xmi:type="notation:Node" xmi:id="_GDbAQ2WBEeufvo4097dvsA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_GDbARGWBEeufvo4097dvsA" y="-24"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GDbARWWBEeufvo4097dvsA" type="3005" element="_GBYY4WWBEeufvo4097dvsA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_GDbARmWBEeufvo4097dvsA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GDbAR2WBEeufvo4097dvsA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_GDbAQWWBEeufvo4097dvsA" fontColor="13606770" fontName="Segoe UI" fontHeight="10" bold="true" italic="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GDbAQmWBEeufvo4097dvsA" x="1321" y="-44" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_m65PgGYkEeuPxoP68MyWYg" type="2001" element="_m6qmBWYkEeuPxoP68MyWYg">
+          <children xmi:type="notation:Node" xmi:id="_m66doGYkEeuPxoP68MyWYg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_m66doWYkEeuPxoP68MyWYg" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_m67rwGYkEeuPxoP68MyWYg" type="3005" element="_m6sbMGYkEeuPxoP68MyWYg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_m67rwWYkEeuPxoP68MyWYg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m67rwmYkEeuPxoP68MyWYg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_m652kGYkEeuPxoP68MyWYg" fontColor="13606770" fontName="Segoe UI" fontHeight="10" bold="true" italic="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m652kWYkEeuPxoP68MyWYg" x="1110" y="91" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_uVRWYGYkEeuPxoP68MyWYg" type="2001" element="_uVIzgWYkEeuPxoP68MyWYg">
+          <children xmi:type="notation:Node" xmi:id="_uVRWY2YkEeuPxoP68MyWYg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_uVRWZGYkEeuPxoP68MyWYg" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uVRWZWYkEeuPxoP68MyWYg" type="3005" element="_uVIzgmYkEeuPxoP68MyWYg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uVRWZmYkEeuPxoP68MyWYg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uVRWZ2YkEeuPxoP68MyWYg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_uVRWYWYkEeuPxoP68MyWYg" fontColor="13606770" fontName="Segoe UI" fontHeight="10" bold="true" italic="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uVRWYmYkEeuPxoP68MyWYg" x="1516" y="84" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_1OA6YGYlEeu5m_U2aQUPfQ" type="2001" element="_1NbrkGYlEeu5m_U2aQUPfQ">
+          <children xmi:type="notation:Node" xmi:id="_1OKrYGYlEeu5m_U2aQUPfQ" visible="false" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_1OKrYWYlEeu5m_U2aQUPfQ" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1OSnMGYlEeu5m_U2aQUPfQ" type="3005" element="_1NdgwGYlEeu5m_U2aQUPfQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_1OSnMWYlEeu5m_U2aQUPfQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1OSnMmYlEeu5m_U2aQUPfQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_1OA6YWYlEeu5m_U2aQUPfQ" fontColor="4539717" fontName="Segoe UI" fontHeight="1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1OA6YmYlEeu5m_U2aQUPfQ" x="1230" y="93" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Y-okcGYuEeu0cPSi8I-T8A" type="2001" element="_Y-Ys0GYuEeu0cPSi8I-T8A">
+          <children xmi:type="notation:Node" xmi:id="_Y-okc2YuEeu0cPSi8I-T8A" visible="false" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Y-okdGYuEeu0cPSi8I-T8A" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Y-okdWYuEeu0cPSi8I-T8A" type="3005" element="_Y-ZT4GYuEeu0cPSi8I-T8A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Y-okdmYuEeu0cPSi8I-T8A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y-okd2YuEeu0cPSi8I-T8A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Y-okcWYuEeu0cPSi8I-T8A" fontColor="230880" fontName="Segoe UI" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y-okcmYuEeu0cPSi8I-T8A" x="1350" y="228" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_cHUMoGYuEeu0cPSi8I-T8A" type="2001" element="_cHDt-GYuEeu0cPSi8I-T8A">
+          <children xmi:type="notation:Node" xmi:id="_cHVawGYuEeu0cPSi8I-T8A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_cHVawWYuEeu0cPSi8I-T8A" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_cHa6UGYuEeu0cPSi8I-T8A" type="3005" element="_cHDt-WYuEeu0cPSi8I-T8A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_cHa6UWYuEeu0cPSi8I-T8A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cHa6UmYuEeu0cPSi8I-T8A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_cHUMoWYuEeu0cPSi8I-T8A" fontColor="13606770" fontName="Segoe UI" fontHeight="10" bold="true" italic="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cHUMomYuEeu0cPSi8I-T8A" x="1485" y="333" width="72" height="72"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_cHWB0GYuEeu0cPSi8I-T8A" type="2001" element="_cHDt-2YuEeu0cPSi8I-T8A">
+          <children xmi:type="notation:Node" xmi:id="_cHWB02YuEeu0cPSi8I-T8A" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_cHWB1GYuEeu0cPSi8I-T8A" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_cHbhYGYuEeu0cPSi8I-T8A" type="3005" element="_cHDt_GYuEeu0cPSi8I-T8A">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_cHbhYWYuEeu0cPSi8I-T8A" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cHbhYmYuEeu0cPSi8I-T8A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_cHWB0WYuEeu0cPSi8I-T8A" fontColor="13606770" fontName="Segoe UI" fontHeight="10" bold="true" italic="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cHWB0mYuEeu0cPSi8I-T8A" x="1230" y="333" width="72" height="72"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_UhTzkGbpEeu3tsHX4sCWvg" type="2001" element="_UhJbkGbpEeu3tsHX4sCWvg">
+          <children xmi:type="notation:Node" xmi:id="_UhVowGbpEeu3tsHX4sCWvg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_UhVowWbpEeu3tsHX4sCWvg" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_UhW24GbpEeu3tsHX4sCWvg" type="3005" element="_UhJbkWbpEeu3tsHX4sCWvg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_UhW24WbpEeu3tsHX4sCWvg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UhW24mbpEeu3tsHX4sCWvg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_UhVBsGbpEeu3tsHX4sCWvg" fontColor="3465866" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UhVBsWbpEeu3tsHX4sCWvg" x="315" y="404" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ezMTEGbpEeu3tsHX4sCWvg" type="2001" element="_ezDJL2bpEeu3tsHX4sCWvg">
+          <children xmi:type="notation:Node" xmi:id="_ezMTE2bpEeu3tsHX4sCWvg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ezMTFGbpEeu3tsHX4sCWvg" x="-1" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ezP9cGbpEeu3tsHX4sCWvg" type="3005" element="_ezDJMGbpEeu3tsHX4sCWvg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ezP9cWbpEeu3tsHX4sCWvg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ezP9cmbpEeu3tsHX4sCWvg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ezMTEWbpEeu3tsHX4sCWvg" fontColor="3465866" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ezMTEmbpEeu3tsHX4sCWvg" x="555" y="-15" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_TEzYUGb0EeuE9v8KPLuOvQ" type="2001" element="_TBPuBGb0EeuE9v8KPLuOvQ">
+          <children xmi:type="notation:Node" xmi:id="_TFBawGb0EeuE9v8KPLuOvQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_TFBawWb0EeuE9v8KPLuOvQ" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TFqT8mb0EeuE9v8KPLuOvQ" type="3005" element="_TBYQ4Gb0EeuE9v8KPLuOvQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_TFqT82b0EeuE9v8KPLuOvQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TFqT9Gb0EeuE9v8KPLuOvQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_TEzYUWb0EeuE9v8KPLuOvQ" fontColor="230880" fontName="Segoe UI" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TEzYUmb0EeuE9v8KPLuOvQ" x="1365" y="109" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_TFkNUGb0EeuE9v8KPLuOvQ" type="2001" element="_TBkeIWb0EeuE9v8KPLuOvQ">
+          <children xmi:type="notation:Node" xmi:id="_TFmpkGb0EeuE9v8KPLuOvQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_TFmpkWb0EeuE9v8KPLuOvQ" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TFqT9Wb0EeuE9v8KPLuOvQ" type="3005" element="_TBkeImb0EeuE9v8KPLuOvQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_TFqT9mb0EeuE9v8KPLuOvQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TFqT92b0EeuE9v8KPLuOvQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_TFkNUWb0EeuE9v8KPLuOvQ" fontColor="230880" fontName="Segoe UI" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TFkNUmb0EeuE9v8KPLuOvQ" x="660" y="93" width="78" height="80"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_TFmpkmb0EeuE9v8KPLuOvQ" type="2001" element="_TBrL0Wb0EeuE9v8KPLuOvQ">
+          <children xmi:type="notation:Node" xmi:id="_TFmplWb0EeuE9v8KPLuOvQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_TFmplmb0EeuE9v8KPLuOvQ" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TFqT-Gb0EeuE9v8KPLuOvQ" type="3005" element="_TBxScGb0EeuE9v8KPLuOvQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_TFqT-Wb0EeuE9v8KPLuOvQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TFqT-mb0EeuE9v8KPLuOvQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_TFmpk2b0EeuE9v8KPLuOvQ" fontColor="230880" fontName="Segoe UI" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TFmplGb0EeuE9v8KPLuOvQ" x="336" y="180" width="64" height="64"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_TFpF0Gb0EeuE9v8KPLuOvQ" type="2001" element="_TBx5gWb0EeuE9v8KPLuOvQ">
+          <children xmi:type="notation:Node" xmi:id="_TFqT8Gb0EeuE9v8KPLuOvQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_TFqT8Wb0EeuE9v8KPLuOvQ" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TFvMcGb0EeuE9v8KPLuOvQ" type="3005" element="_TB1j4Gb0EeuE9v8KPLuOvQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_TFvMcWb0EeuE9v8KPLuOvQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TFvMcmb0EeuE9v8KPLuOvQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_TFpF0Wb0EeuE9v8KPLuOvQ" fontColor="230880" fontName="Segoe UI" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TFpF0mb0EeuE9v8KPLuOvQ" x="435" y="270" width="64" height="64"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_hVyWEmOQEeuhbP76z0fIWQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_WmPAUGPWEeuBuvOT_3wMYA" type="4001" element="_WkqTAGPWEeuBuvOT_3wMYA" source="_xicx8GOQEeuhbP76z0fIWQ" target="_DqCRUGOwEeuBuvOT_3wMYA">
+          <children xmi:type="notation:Node" xmi:id="_WmPAVGPWEeuBuvOT_3wMYA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WmPAVWPWEeuBuvOT_3wMYA" x="10" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WmPAVmPWEeuBuvOT_3wMYA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WmPAV2PWEeuBuvOT_3wMYA" x="-10" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WmPAWGPWEeuBuvOT_3wMYA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WmPAWWPWEeuBuvOT_3wMYA" x="-10" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_WmPAUWPWEeuBuvOT_3wMYA" routing="Tree"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_WmPAUmPWEeuBuvOT_3wMYA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WmPAU2PWEeuBuvOT_3wMYA" points="[0, 10, -24, 74]$[24, -66, 0, -2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WmUf4GPWEeuBuvOT_3wMYA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WmUf4WPWEeuBuvOT_3wMYA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_kUVt4GYtEeuLOpJJGYGuSw" type="4001" element="_kRXSaWYtEeuLOpJJGYGuSw" source="_GDbAQGWBEeufvo4097dvsA" target="_1OA6YGYlEeu5m_U2aQUPfQ">
+          <children xmi:type="notation:Node" xmi:id="_kUVt5GYtEeuLOpJJGYGuSw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kUVt5WYtEeuLOpJJGYGuSw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kUVt5mYtEeuLOpJJGYGuSw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kUVt52YtEeuLOpJJGYGuSw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kUVt6GYtEeuLOpJJGYGuSw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kUVt6WYtEeuLOpJJGYGuSw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_kUVt4WYtEeuLOpJJGYGuSw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_kUVt4mYtEeuLOpJJGYGuSw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kUVt42YtEeuLOpJJGYGuSw" points="[0, 0, 62, 60]$[-62, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kUVt6mYtEeuLOpJJGYGuSw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kUVt62YtEeuLOpJJGYGuSw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_kUVt7GYtEeuLOpJJGYGuSw" type="4001" element="_kRXSbmYtEeuLOpJJGYGuSw" source="_GDbAQGWBEeufvo4097dvsA" target="_m65PgGYkEeuPxoP68MyWYg">
+          <children xmi:type="notation:Node" xmi:id="_kUXjEGYtEeuLOpJJGYGuSw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kUXjEWYtEeuLOpJJGYGuSw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kUXjEmYtEeuLOpJJGYGuSw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kUXjE2YtEeuLOpJJGYGuSw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kUXjFGYtEeuLOpJJGYGuSw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kUXjFWYtEeuLOpJJGYGuSw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_kUVt7WYtEeuLOpJJGYGuSw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_kUVt7mYtEeuLOpJJGYGuSw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kUVt72YtEeuLOpJJGYGuSw" points="[0, 0, 186, 60]$[-186, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kUXjFmYtEeuLOpJJGYGuSw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kUXjF2YtEeuLOpJJGYGuSw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_kUXjGGYtEeuLOpJJGYGuSw" type="4001" element="_kRXSc2YtEeuLOpJJGYGuSw" source="_GDbAQGWBEeufvo4097dvsA" target="_uVRWYGYkEeuPxoP68MyWYg">
+          <children xmi:type="notation:Node" xmi:id="_kUYxMGYtEeuLOpJJGYGuSw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kUYxMWYtEeuLOpJJGYGuSw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kUYxMmYtEeuLOpJJGYGuSw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kUYxM2YtEeuLOpJJGYGuSw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kUZYQGYtEeuLOpJJGYGuSw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kUZYQWYtEeuLOpJJGYGuSw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_kUXjGWYtEeuLOpJJGYGuSw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_kUXjGmYtEeuLOpJJGYGuSw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kUXjG2YtEeuLOpJJGYGuSw" points="[0, 0, -186, 60]$[186, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kUZYQmYtEeuLOpJJGYGuSw" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kUZYQ2YtEeuLOpJJGYGuSw" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_8pdpMGYuEeu0cPSi8I-T8A" type="4001" element="_8n-bhGYuEeu0cPSi8I-T8A" source="_Y-okcGYuEeu0cPSi8I-T8A" target="_cHUMoGYuEeu0cPSi8I-T8A">
+          <children xmi:type="notation:Node" xmi:id="_8phTkGYuEeu0cPSi8I-T8A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8phTkWYuEeu0cPSi8I-T8A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8phTkmYuEeu0cPSi8I-T8A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8phTk2YuEeu0cPSi8I-T8A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8ph6oGYuEeu0cPSi8I-T8A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8ph6oWYuEeu0cPSi8I-T8A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_8pdpMWYuEeu0cPSi8I-T8A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_8pdpMmYuEeu0cPSi8I-T8A" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8pdpM2YuEeu0cPSi8I-T8A" points="[0, 0, -66, 60]$[66, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8ph6omYuEeu0cPSi8I-T8A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8ph6o2YuEeu0cPSi8I-T8A" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_8ph6pGYuEeu0cPSi8I-T8A" type="4001" element="_8n-biWYuEeu0cPSi8I-T8A" source="_Y-okcGYuEeu0cPSi8I-T8A" target="_cHWB0GYuEeu0cPSi8I-T8A">
+          <children xmi:type="notation:Node" xmi:id="_8pihsGYuEeu0cPSi8I-T8A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8pihsWYuEeu0cPSi8I-T8A" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8pihsmYuEeu0cPSi8I-T8A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8pihs2YuEeu0cPSi8I-T8A" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8pihtGYuEeu0cPSi8I-T8A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8pihtWYuEeu0cPSi8I-T8A" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_8ph6pWYuEeu0cPSi8I-T8A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_8ph6pmYuEeu0cPSi8I-T8A" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8ph6p2YuEeu0cPSi8I-T8A" points="[0, 0, 66, 60]$[-66, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8pihtmYuEeu0cPSi8I-T8A" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8piht2YuEeu0cPSi8I-T8A" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_UhW242bpEeu3tsHX4sCWvg" type="4001" element="_UhNtDGbpEeu3tsHX4sCWvg" source="_B0-TUGOTEeuFLsUtgSFRjA" target="_UhTzkGbpEeu3tsHX4sCWvg">
+          <children xmi:type="notation:Node" xmi:id="_UhW252bpEeu3tsHX4sCWvg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UhW26GbpEeu3tsHX4sCWvg" x="-36" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_UhW26WbpEeu3tsHX4sCWvg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UhW26mbpEeu3tsHX4sCWvg" x="22" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_UhW262bpEeu3tsHX4sCWvg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UhW27GbpEeu3tsHX4sCWvg" x="13" y="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_UhW25GbpEeu3tsHX4sCWvg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_UhW25WbpEeu3tsHX4sCWvg" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UhW25mbpEeu3tsHX4sCWvg" points="[32, 17, -178, -96]$[178, 95, -32, -18]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UhW27WbpEeu3tsHX4sCWvg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UhW27mbpEeu3tsHX4sCWvg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ezP9c2bpEeu3tsHX4sCWvg" type="4001" element="_ezFljGbpEeu3tsHX4sCWvg" source="_xicx8GOQEeuhbP76z0fIWQ" target="_ezMTEGbpEeu3tsHX4sCWvg">
+          <children xmi:type="notation:Node" xmi:id="_ezP9d2bpEeu3tsHX4sCWvg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ezP9eGbpEeu3tsHX4sCWvg" x="6" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ezRyoGbpEeu3tsHX4sCWvg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ezRyoWbpEeu3tsHX4sCWvg" x="-12" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ezRyombpEeu3tsHX4sCWvg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ezRyo2bpEeu3tsHX4sCWvg" x="-13" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ezP9dGbpEeu3tsHX4sCWvg" routing="Tree"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ezP9dWbpEeu3tsHX4sCWvg" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ezP9dmbpEeu3tsHX4sCWvg" points="[38, -19, -181, 86]$[187, -90, -32, 15]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ezRypGbpEeu3tsHX4sCWvg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ezRypWbpEeu3tsHX4sCWvg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_TFvMc2b0EeuE9v8KPLuOvQ" type="4001" element="_TCww-mb0EeuE9v8KPLuOvQ" source="_xicx8GOQEeuhbP76z0fIWQ" target="_TFkNUGb0EeuE9v8KPLuOvQ">
+          <children xmi:type="notation:Node" xmi:id="_TF2hMGb0EeuE9v8KPLuOvQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TF2hMWb0EeuE9v8KPLuOvQ" x="5" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TF2hMmb0EeuE9v8KPLuOvQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TF2hM2b0EeuE9v8KPLuOvQ" x="-6" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TF5kgGb0EeuE9v8KPLuOvQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TF5kgWb0EeuE9v8KPLuOvQ" x="-5" y="-9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_TFvMdGb0EeuE9v8KPLuOvQ" routing="Tree"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_TFvMdWb0EeuE9v8KPLuOvQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TFvMdmb0EeuE9v8KPLuOvQ" points="[38, 8, -301, -65]$[339, 73, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TGA5QGb0EeuE9v8KPLuOvQ" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TGA5QWb0EeuE9v8KPLuOvQ" id="(0.5932203389830508,0.8)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_TGA5Qmb0EeuE9v8KPLuOvQ" type="4001" element="_TC23kmb0EeuE9v8KPLuOvQ" source="_B0-TUGOTEeuFLsUtgSFRjA" target="_TFmpkmb0EeuE9v8KPLuOvQ">
+          <children xmi:type="notation:Node" xmi:id="_TGA5Rmb0EeuE9v8KPLuOvQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGA5R2b0EeuE9v8KPLuOvQ" x="4" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TGA5SGb0EeuE9v8KPLuOvQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGA5SWb0EeuE9v8KPLuOvQ" x="-4" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TGA5Smb0EeuE9v8KPLuOvQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGA5S2b0EeuE9v8KPLuOvQ" x="-4" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_TGA5Q2b0EeuE9v8KPLuOvQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_TGA5RGb0EeuE9v8KPLuOvQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TGA5RWb0EeuE9v8KPLuOvQ" points="[-1, -5, -209, 89]$[124, -52, -84, 42]$[184, -78, -24, 16]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TGA5TGb0EeuE9v8KPLuOvQ" id="(0.859375,0.234375)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_TGA5Tmb0EeuE9v8KPLuOvQ" type="4001" element="_TDB2smb0EeuE9v8KPLuOvQ" source="_B0-TUGOTEeuFLsUtgSFRjA" target="_TFpF0Gb0EeuE9v8KPLuOvQ">
+          <children xmi:type="notation:Node" xmi:id="_TGIOAGb0EeuE9v8KPLuOvQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGIOAWb0EeuE9v8KPLuOvQ" x="-8" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TGIOAmb0EeuE9v8KPLuOvQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGIOA2b0EeuE9v8KPLuOvQ" x="3" y="4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TGIOBGb0EeuE9v8KPLuOvQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGIOBWb0EeuE9v8KPLuOvQ" x="2" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_TGA5T2b0EeuE9v8KPLuOvQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_TGA5UGb0EeuE9v8KPLuOvQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TGA5UWb0EeuE9v8KPLuOvQ" points="[-1, -1, -286, 30]$[276, -30, -9, 1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TGIOBmb0EeuE9v8KPLuOvQ" id="(0.859375,0.640625)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TGIOB2b0EeuE9v8KPLuOvQ" id="(0.15625,0.484375)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_TGIOCGb0EeuE9v8KPLuOvQ" type="4001" element="_TDB2t2b0EeuE9v8KPLuOvQ" source="_TFkNUGb0EeuE9v8KPLuOvQ" target="_ovKusGOhEeuYY-MLp09ZMQ">
+          <children xmi:type="notation:Node" xmi:id="_TGIODGb0EeuE9v8KPLuOvQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGIODWb0EeuE9v8KPLuOvQ" x="8" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TGIODmb0EeuE9v8KPLuOvQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGIOD2b0EeuE9v8KPLuOvQ" x="-25" y="-39"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TGL4YGb0EeuE9v8KPLuOvQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGL4YWb0EeuE9v8KPLuOvQ" x="-3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_TGIOCWb0EeuE9v8KPLuOvQ" routing="Tree"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_TGIOCmb0EeuE9v8KPLuOvQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TGIOC2b0EeuE9v8KPLuOvQ" points="[-29, -12, -238, -115]$[-29, -12, -238, -115]$[201, -12, -8, -115]$[201, 27, -8, -76]"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TGL4Y2b0EeuE9v8KPLuOvQ" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_TGNGgGb0EeuE9v8KPLuOvQ" type="4001" element="_TDB2vGb0EeuE9v8KPLuOvQ" source="_TFkNUGb0EeuE9v8KPLuOvQ" target="_ovUfsmOhEeuYY-MLp09ZMQ">
+          <children xmi:type="notation:Node" xmi:id="_TGNGhGb0EeuE9v8KPLuOvQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGNGhWb0EeuE9v8KPLuOvQ" x="-1" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TGNGhmb0EeuE9v8KPLuOvQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGNGh2b0EeuE9v8KPLuOvQ" x="13" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TGNGiGb0EeuE9v8KPLuOvQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGNGiWb0EeuE9v8KPLuOvQ" x="-17" y="-4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_TGNGgWb0EeuE9v8KPLuOvQ" routing="Tree"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_TGNGgmb0EeuE9v8KPLuOvQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TGNGg2b0EeuE9v8KPLuOvQ" points="[-26, -28, -196, 40]$[-26, -28, -196, 40]$[170, -28, 0, 40]$[170, -70, 0, -2]"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TGNGi2b0EeuE9v8KPLuOvQ" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_TGNGjGb0EeuE9v8KPLuOvQ" type="4001" element="_TDJLemb0EeuE9v8KPLuOvQ" source="_GDbAQGWBEeufvo4097dvsA" target="_TEzYUGb0EeuE9v8KPLuOvQ">
+          <children xmi:type="notation:Node" xmi:id="_TGNGkGb0EeuE9v8KPLuOvQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGNGkWb0EeuE9v8KPLuOvQ" x="15"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TGNGkmb0EeuE9v8KPLuOvQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGNGk2b0EeuE9v8KPLuOvQ" x="-20" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TGNGlGb0EeuE9v8KPLuOvQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGNGlWb0EeuE9v8KPLuOvQ" x="-16" y="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_TGNGjWb0EeuE9v8KPLuOvQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_TGNGjmb0EeuE9v8KPLuOvQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TGNGj2b0EeuE9v8KPLuOvQ" points="[12, 64, -32, -153]$[44, 217, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TGNGlmb0EeuE9v8KPLuOvQ" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TGNGl2b0EeuE9v8KPLuOvQ" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_TGNGmGb0EeuE9v8KPLuOvQ" type="4001" element="_TDLnsGb0EeuE9v8KPLuOvQ" source="_TEzYUGb0EeuE9v8KPLuOvQ" target="_Y-okcGYuEeu0cPSi8I-T8A">
+          <children xmi:type="notation:Node" xmi:id="_TGNGnGb0EeuE9v8KPLuOvQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGNGnWb0EeuE9v8KPLuOvQ" x="-19" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TGNGnmb0EeuE9v8KPLuOvQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGNGn2b0EeuE9v8KPLuOvQ" x="18" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TGNGoGb0EeuE9v8KPLuOvQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TGNGoWb0EeuE9v8KPLuOvQ" x="18"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_TGNGmWb0EeuE9v8KPLuOvQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_TGNGmmb0EeuE9v8KPLuOvQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TGNGm2b0EeuE9v8KPLuOvQ" points="[-6, 64, 9, -119]$[-15, 183, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TGW3gGb0EeuE9v8KPLuOvQ" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TGW3gWb0EeuE9v8KPLuOvQ" id="(0.5,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_hV4csGOQEeuhbP76z0fIWQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_hV4csWOQEeuhbP76z0fIWQ"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xgrQUGOQEeuhbP76z0fIWQ" name="dma_c" outgoingEdges="_WkqTAGPWEeuBuvOT_3wMYA _ezFljGbpEeu3tsHX4sCWvg _TCww-mb0EeuE9v8KPLuOvQ" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="metamodel:Component" href="TEST.metamodel#//@component_declaration.1"/>
+      <semanticElements xmi:type="metamodel:Component" href="TEST.metamodel#//@component_declaration.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_1WRo4GOQEeuhbP76z0fIWQ" labelSize="10" showIcon="false" labelColor="114,159,207" workspacePath="/pss.dsl.visualisation.design/icons/Component.png">
+        <labelFormat>italic</labelFormat>
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Component']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Bz3gEmOTEeuFLsUtgSFRjA" name="util_c" outgoingEdges="_UhNtDGbpEeu3tsHX4sCWvg _TC23kmb0EeuE9v8KPLuOvQ _TDB2smb0EeuE9v8KPLuOvQ" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="metamodel:Component" href="TEST.metamodel#//@component_declaration.2"/>
+      <semanticElements xmi:type="metamodel:Component" href="TEST.metamodel#//@component_declaration.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_Bz3gE2OTEeuFLsUtgSFRjA" labelSize="10" showIcon="false" labelColor="114,159,207" workspacePath="/pss.dsl.visualisation.design/icons/Component.png">
+        <labelFormat>italic</labelFormat>
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Component']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ovA9umOhEeuYY-MLp09ZMQ" name="data_buff src_buff" incomingEdges="_TDB2t2b0EeuE9v8KPLuOvQ" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="metamodel:Buffer" href="TEST.metamodel#//@component_declaration.1/@action.0/@object.0"/>
+      <semanticElements xmi:type="metamodel:Buffer" href="TEST.metamodel#//@component_declaration.1/@action.0/@object.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ovA9u2OhEeuYY-MLp09ZMQ" labelSize="9" showIcon="false" labelColor="173,127,168" workspacePath="/pss.dsl.visualisation.design/icons/Buffer.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Buffer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Buffer']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ovA9vWOhEeuYY-MLp09ZMQ" name="data_buff dst_buff" incomingEdges="_TDB2vGb0EeuE9v8KPLuOvQ" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="metamodel:Buffer" href="TEST.metamodel#//@component_declaration.1/@action.0/@object.1"/>
+      <semanticElements xmi:type="metamodel:Buffer" href="TEST.metamodel#//@component_declaration.1/@action.0/@object.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ovA9vmOhEeuYY-MLp09ZMQ" labelSize="9" showIcon="false" labelColor="173,127,168" workspacePath="/pss.dsl.visualisation.design/icons/Buffer.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Buffer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Buffer']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_1NbrkGYlEeu5m_U2aQUPfQ" incomingEdges="_kRXSaWYtEeuLOpJJGYGuSw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="metamodel:pool" href="TEST.metamodel#//@component_declaration.0/@pool.0"/>
+      <semanticElements xmi:type="metamodel:pool" href="TEST.metamodel#//@component_declaration.0/@pool.0"/>
+      <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_1NhLIGYlEeu5m_U2aQUPfQ"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_1NdgwGYlEeu5m_U2aQUPfQ" labelSize="1" showIcon="false" labelColor="69,69,69" hideLabelByDefault="true" workspacePath="/pss.dsl.visualisation.design/icons/pool.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Pool']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Pool']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Dp4gYGOwEeuBuvOT_3wMYA" incomingEdges="_WkqTAGPWEeuBuvOT_3wMYA" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="metamodel:pool" href="TEST.metamodel#//@component_declaration.1/@pool.0"/>
+      <semanticElements xmi:type="metamodel:pool" href="TEST.metamodel#//@component_declaration.1/@pool.0"/>
+      <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_Dp4gY2OwEeuBuvOT_3wMYA"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_Dp4gYWOwEeuBuvOT_3wMYA" labelSize="1" showIcon="false" labelColor="69,69,69" hideLabelByDefault="true" workspacePath="/pss.dsl.visualisation.design/icons/pool.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Pool']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Pool']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_WkqTAGPWEeuBuvOT_3wMYA" sourceNode="_xgrQUGOQEeuhbP76z0fIWQ" targetNode="_Dp4gYGOwEeuBuvOT_3wMYA">
+      <target xmi:type="metamodel:Component" href="TEST.metamodel#//@component_declaration.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_WksIMGPWEeuBuvOT_3wMYA" size="2" routingStyle="tree">
+        <customFeatures>routingStyle</customFeatures>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='componentvsall_Edge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_WksIMWPWEeuBuvOT_3wMYA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='componentvsall_Edge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_GBYY4GWBEeufvo4097dvsA" name="pss_top" outgoingEdges="_kRXSaWYtEeuLOpJJGYGuSw _kRXSbmYtEeuLOpJJGYGuSw _kRXSc2YtEeuLOpJJGYGuSw _TDJLemb0EeuE9v8KPLuOvQ" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="metamodel:RootComponent" href="TEST.metamodel#//@component_declaration.0"/>
+      <semanticElements xmi:type="metamodel:RootComponent" href="TEST.metamodel#//@component_declaration.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_GBYY4WWBEeufvo4097dvsA" labelSize="10" showIcon="false" labelColor="114,159,207" workspacePath="/pss.dsl.visualisation.design/icons/RootComponnet.gif">
+        <labelFormat>italic</labelFormat>
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_RootComponent']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_RootComponent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_m6qmBWYkEeuPxoP68MyWYg" name="dma" incomingEdges="_kRXSbmYtEeuLOpJJGYGuSw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="metamodel:Component_Invocation" href="TEST.metamodel#//@component_declaration.0/@component_invocation.0"/>
+      <semanticElements xmi:type="metamodel:Component_Invocation" href="TEST.metamodel#//@component_declaration.0/@component_invocation.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_m6sbMGYkEeuPxoP68MyWYg" labelSize="10" showIcon="false" labelColor="114,159,207" workspacePath="/pss.dsl.visualisation.design/icons/Component_Invocation.gif">
+        <labelFormat>italic</labelFormat>
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_ComponentInvocation']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_ComponentInvocation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_uVIzgWYkEeuPxoP68MyWYg" name="util" incomingEdges="_kRXSc2YtEeuLOpJJGYGuSw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="metamodel:Component_Invocation" href="TEST.metamodel#//@component_declaration.0/@component_invocation.1"/>
+      <semanticElements xmi:type="metamodel:Component_Invocation" href="TEST.metamodel#//@component_declaration.0/@component_invocation.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_uVIzgmYkEeuPxoP68MyWYg" labelSize="10" showIcon="false" labelColor="114,159,207" workspacePath="/pss.dsl.visualisation.design/icons/Component_Invocation.gif">
+        <labelFormat>italic</labelFormat>
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_ComponentInvocation']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_ComponentInvocation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_kRXSaWYtEeuLOpJJGYGuSw" sourceNode="_GBYY4GWBEeufvo4097dvsA" targetNode="_1NbrkGYlEeu5m_U2aQUPfQ">
+      <target xmi:type="metamodel:RootComponent" href="TEST.metamodel#//@component_declaration.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_kRXSamYtEeuLOpJJGYGuSw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='rootComponentvsall_Edge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_kRXSa2YtEeuLOpJJGYGuSw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='rootComponentvsall_Edge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_kRXSbmYtEeuLOpJJGYGuSw" sourceNode="_GBYY4GWBEeufvo4097dvsA" targetNode="_m6qmBWYkEeuPxoP68MyWYg">
+      <target xmi:type="metamodel:RootComponent" href="TEST.metamodel#//@component_declaration.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_kRXSb2YtEeuLOpJJGYGuSw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='rootComponentvsall_Edge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_kRXScGYtEeuLOpJJGYGuSw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='rootComponentvsall_Edge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_kRXSc2YtEeuLOpJJGYGuSw" sourceNode="_GBYY4GWBEeufvo4097dvsA" targetNode="_uVIzgWYkEeuPxoP68MyWYg">
+      <target xmi:type="metamodel:RootComponent" href="TEST.metamodel#//@component_declaration.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_kRXSdGYtEeuLOpJJGYGuSw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='rootComponentvsall_Edge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_kRXSdWYtEeuLOpJJGYGuSw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='rootComponentvsall_Edge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Y-Ys0GYuEeu0cPSi8I-T8A" outgoingEdges="_8n-bhGYuEeu0cPSi8I-T8A _8n-biWYuEeu0cPSi8I-T8A" incomingEdges="_TDLnsGb0EeuE9v8KPLuOvQ" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="metamodel:Activity" href="TEST.metamodel#//@component_declaration.0/@action.0/@activity.0"/>
+      <semanticElements xmi:type="metamodel:Activity" href="TEST.metamodel#//@component_declaration.0/@action.0/@activity.0"/>
+      <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_Y-Z68WYuEeu0cPSi8I-T8A"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_Y-ZT4GYuEeu0cPSi8I-T8A" labelSize="10" showIcon="false" labelColor="224,133,3" hideLabelByDefault="true" workspacePath="/pss.dsl.visualisation.design/icons/Activity.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Activity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Activity']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_cHDt-GYuEeu0cPSi8I-T8A" incomingEdges="_8n-bhGYuEeu0cPSi8I-T8A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="metamodel:Action_invocation" href="TEST.metamodel#//@component_declaration.0/@action.0/@activity.0/@action_invocation.0"/>
+      <semanticElements xmi:type="metamodel:Action_invocation" href="TEST.metamodel#//@component_declaration.0/@action.0/@activity.0/@action_invocation.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_cHDt-WYuEeu0cPSi8I-T8A" labelSize="10" showIcon="false" labelColor="114,159,207" workspacePath="/pss.dsl.visualisation.design/icons/Action_invocation.gif">
+        <labelFormat>italic</labelFormat>
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='%20PD_ActionInvocation']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='%20PD_ActionInvocation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_cHDt-2YuEeu0cPSi8I-T8A" incomingEdges="_8n-biWYuEeu0cPSi8I-T8A" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="metamodel:Action_invocation" href="TEST.metamodel#//@component_declaration.0/@action.0/@activity.0/@action_invocation.1"/>
+      <semanticElements xmi:type="metamodel:Action_invocation" href="TEST.metamodel#//@component_declaration.0/@action.0/@activity.0/@action_invocation.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_cHDt_GYuEeu0cPSi8I-T8A" labelSize="10" showIcon="false" labelColor="114,159,207" workspacePath="/pss.dsl.visualisation.design/icons/Action_invocation.gif">
+        <labelFormat>italic</labelFormat>
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='%20PD_ActionInvocation']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='%20PD_ActionInvocation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_8n-bhGYuEeu0cPSi8I-T8A" sourceNode="_Y-Ys0GYuEeu0cPSi8I-T8A" targetNode="_cHDt-GYuEeu0cPSi8I-T8A">
+      <target xmi:type="metamodel:Activity" href="TEST.metamodel#//@component_declaration.0/@action.0/@activity.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_8n-bhWYuEeu0cPSi8I-T8A" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='ActivityVs_ActionInvocation_Edge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_8n-bhmYuEeu0cPSi8I-T8A" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='ActivityVs_ActionInvocation_Edge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_8n-biWYuEeu0cPSi8I-T8A" sourceNode="_Y-Ys0GYuEeu0cPSi8I-T8A" targetNode="_cHDt-2YuEeu0cPSi8I-T8A">
+      <target xmi:type="metamodel:Activity" href="TEST.metamodel#//@component_declaration.0/@action.0/@activity.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_8n-bimYuEeu0cPSi8I-T8A" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='ActivityVs_ActionInvocation_Edge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_8n-bi2YuEeu0cPSi8I-T8A" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='ActivityVs_ActionInvocation_Edge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ezDJL2bpEeu3tsHX4sCWvg" name="channel_r " incomingEdges="_ezFljGbpEeu3tsHX4sCWvg" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="metamodel:Resource" href="TEST.metamodel#//@component_declaration.1/@data_object.0"/>
+      <semanticElements xmi:type="metamodel:Resource" href="TEST.metamodel#//@component_declaration.1/@data_object.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ezDJMGbpEeu3tsHX4sCWvg" labelSize="9" showIcon="false" labelColor="138,226,52" workspacePath="/pss.dsl.visualisation.design/icons/Resource.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Resource']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Resource']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_UhJbkGbpEeu3tsHX4sCWvg" name="chan_t" incomingEdges="_UhNtDGbpEeu3tsHX4sCWvg" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="metamodel:Resource" href="TEST.metamodel#//@component_declaration.2/@data_object.0"/>
+      <semanticElements xmi:type="metamodel:Resource" href="TEST.metamodel#//@component_declaration.2/@data_object.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_UhJbkWbpEeu3tsHX4sCWvg" labelSize="9" showIcon="false" labelColor="138,226,52" workspacePath="/pss.dsl.visualisation.design/icons/Resource.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Resource']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Resource']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_UhNtDGbpEeu3tsHX4sCWvg" sourceNode="_Bz3gEmOTEeuFLsUtgSFRjA" targetNode="_UhJbkGbpEeu3tsHX4sCWvg">
+      <target xmi:type="metamodel:Component" href="TEST.metamodel#//@component_declaration.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_UhNtDWbpEeu3tsHX4sCWvg" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='componentvsall_Edge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_UhNtDmbpEeu3tsHX4sCWvg" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='componentvsall_Edge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_ezFljGbpEeu3tsHX4sCWvg" sourceNode="_xgrQUGOQEeuhbP76z0fIWQ" targetNode="_ezDJL2bpEeu3tsHX4sCWvg">
+      <target xmi:type="metamodel:Component" href="TEST.metamodel#//@component_declaration.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_ezFljWbpEeu3tsHX4sCWvg" size="2" routingStyle="tree">
+        <customFeatures>routingStyle</customFeatures>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='componentvsall_Edge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_ezFljmbpEeu3tsHX4sCWvg" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='componentvsall_Edge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_TBPuBGb0EeuE9v8KPLuOvQ" outgoingEdges="_TDLnsGb0EeuE9v8KPLuOvQ" incomingEdges="_TDJLemb0EeuE9v8KPLuOvQ" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="metamodel:Action" href="TEST.metamodel#//@component_declaration.0/@action.0"/>
+      <semanticElements xmi:type="metamodel:Action" href="TEST.metamodel#//@component_declaration.0/@action.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_TBYQ4Gb0EeuE9v8KPLuOvQ" labelSize="10" showIcon="false" labelColor="224,133,3" workspacePath="/pss.dsl.visualisation.design/icons/Action.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Action']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Action']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_TBkeIWb0EeuE9v8KPLuOvQ" outgoingEdges="_TDB2t2b0EeuE9v8KPLuOvQ _TDB2vGb0EeuE9v8KPLuOvQ" incomingEdges="_TCww-mb0EeuE9v8KPLuOvQ" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="metamodel:Action" href="TEST.metamodel#//@component_declaration.1/@action.0"/>
+      <semanticElements xmi:type="metamodel:Action" href="TEST.metamodel#//@component_declaration.1/@action.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_TBkeImb0EeuE9v8KPLuOvQ" labelSize="10" showIcon="false" labelColor="224,133,3" workspacePath="/pss.dsl.visualisation.design/icons/Action.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Action']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Action']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_TBrL0Wb0EeuE9v8KPLuOvQ" incomingEdges="_TC23kmb0EeuE9v8KPLuOvQ" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="metamodel:Action" href="TEST.metamodel#//@component_declaration.2/@action.0"/>
+      <semanticElements xmi:type="metamodel:Action" href="TEST.metamodel#//@component_declaration.2/@action.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_TBxScGb0EeuE9v8KPLuOvQ" labelSize="10" showIcon="false" labelColor="224,133,3" workspacePath="/pss.dsl.visualisation.design/icons/Action.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Action']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Action']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_TBx5gWb0EeuE9v8KPLuOvQ" incomingEdges="_TDB2smb0EeuE9v8KPLuOvQ" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="metamodel:Action" href="TEST.metamodel#//@component_declaration.2/@action.1"/>
+      <semanticElements xmi:type="metamodel:Action" href="TEST.metamodel#//@component_declaration.2/@action.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_TB1j4Gb0EeuE9v8KPLuOvQ" labelSize="10" showIcon="false" labelColor="224,133,3" workspacePath="/pss.dsl.visualisation.design/icons/Action.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Action']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@nodeMappings[name='PD_Action']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_TCww-mb0EeuE9v8KPLuOvQ" sourceNode="_xgrQUGOQEeuhbP76z0fIWQ" targetNode="_TBkeIWb0EeuE9v8KPLuOvQ">
+      <target xmi:type="metamodel:Component" href="TEST.metamodel#//@component_declaration.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_TC2QgGb0EeuE9v8KPLuOvQ" size="2" routingStyle="tree">
+        <customFeatures>routingStyle</customFeatures>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='componentvsall_Edge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_TC2QgWb0EeuE9v8KPLuOvQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='componentvsall_Edge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_TC23kmb0EeuE9v8KPLuOvQ" sourceNode="_Bz3gEmOTEeuFLsUtgSFRjA" targetNode="_TBrL0Wb0EeuE9v8KPLuOvQ">
+      <target xmi:type="metamodel:Component" href="TEST.metamodel#//@component_declaration.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_TC8-MGb0EeuE9v8KPLuOvQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='componentvsall_Edge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_TC8-MWb0EeuE9v8KPLuOvQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='componentvsall_Edge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_TDB2smb0EeuE9v8KPLuOvQ" sourceNode="_Bz3gEmOTEeuFLsUtgSFRjA" targetNode="_TBx5gWb0EeuE9v8KPLuOvQ">
+      <target xmi:type="metamodel:Component" href="TEST.metamodel#//@component_declaration.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_TDB2s2b0EeuE9v8KPLuOvQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='componentvsall_Edge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_TDB2tGb0EeuE9v8KPLuOvQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='componentvsall_Edge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_TDB2t2b0EeuE9v8KPLuOvQ" sourceNode="_TBkeIWb0EeuE9v8KPLuOvQ" targetNode="_ovA9umOhEeuYY-MLp09ZMQ">
+      <target xmi:type="metamodel:Action" href="TEST.metamodel#//@component_declaration.1/@action.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_TDB2uGb0EeuE9v8KPLuOvQ" size="2" routingStyle="tree">
+        <customFeatures>routingStyle</customFeatures>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='actionvsall_Edge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_TDB2uWb0EeuE9v8KPLuOvQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='actionvsall_Edge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_TDB2vGb0EeuE9v8KPLuOvQ" sourceNode="_TBkeIWb0EeuE9v8KPLuOvQ" targetNode="_ovA9vWOhEeuYY-MLp09ZMQ">
+      <target xmi:type="metamodel:Action" href="TEST.metamodel#//@component_declaration.1/@action.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_TDGvMGb0EeuE9v8KPLuOvQ" size="2" routingStyle="tree">
+        <customFeatures>routingStyle</customFeatures>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='actionvsall_Edge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_TDGvMWb0EeuE9v8KPLuOvQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='actionvsall_Edge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_TDJLemb0EeuE9v8KPLuOvQ" sourceNode="_GBYY4GWBEeufvo4097dvsA" targetNode="_TBPuBGb0EeuE9v8KPLuOvQ">
+      <target xmi:type="metamodel:RootComponent" href="TEST.metamodel#//@component_declaration.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_TDJLe2b0EeuE9v8KPLuOvQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='rootComponentvsall_Edge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_TDJLfGb0EeuE9v8KPLuOvQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='rootComponentvsall_Edge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_TDLnsGb0EeuE9v8KPLuOvQ" sourceNode="_TBPuBGb0EeuE9v8KPLuOvQ" targetNode="_Y-Ys0GYuEeu0cPSi8I-T8A">
+      <target xmi:type="metamodel:Action" href="TEST.metamodel#//@component_declaration.0/@action.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_TDM10Gb0EeuE9v8KPLuOvQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='ActionvsActivity_Edge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_TDM10Wb0EeuE9v8KPLuOvQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer/@edgeMappings[name='ActionvsActivity_Edge']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_hVxH8GOQEeuhbP76z0fIWQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/pss.dsl.visualisation.design/description/visualisation.odesign#//@ownedViewpoints[name='PSSModeling']/@ownedRepresentations[name='PSSModel%20Diagram']/@defaultLayer"/>
+    <target xmi:type="metamodel:PssModel" href="TEST.metamodel#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

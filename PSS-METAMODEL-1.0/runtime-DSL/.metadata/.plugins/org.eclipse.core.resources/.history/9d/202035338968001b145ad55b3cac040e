@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metamodel:PssModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:metamodel="http://www.example.org/metamodel">
+  <component_declaration xsi:type="metamodel:RootComponent" Component_identifier="pss_top">
+    <action action_identifier="m2mtest_a">
+      <activity>
+        <action_invocation/>
+        <action_invocation action_identifier="mem2mem_xfer" action_instance="//@component_declaration.1/@action.0"/>
+      </activity>
+    </action>
+    <pool>
+      <object xsi:type="metamodel:Buffer" Object_identifier="dbuf_p" input="false"/>
+    </pool>
+    <component_invocation Component_identifier="dma" component="//@component_declaration.1"/>
+    <component_invocation Component_identifier="util" component="//@component_declaration.2"/>
+  </component_declaration>
+  <component_declaration xsi:type="metamodel:Component" Component_identifier="dma_c">
+    <action action_identifier="mem2mem">
+      <object xsi:type="metamodel:Buffer" Object_identifier="data_buff src_buff"/>
+      <object xsi:type="metamodel:Buffer" Object_identifier="data_buff dst_buff" input="false" output="true"/>
+    </action>
+    <pool>
+      <object xsi:type="metamodel:Resource" Object_identifier="channel_r { }"/>
+    </pool>
+    <data_object xsi:type="metamodel:Resource" Object_identifier="channel_r "/>
+  </component_declaration>
+  <component_declaration xsi:type="metamodel:Component" Component_identifier="util_c">
+    <action action_identifier="chk_data_a"/>
+    <data_object xsi:type="metamodel:Resource" Object_identifier="chan_t"/>
+  </component_declaration>
+  <action xsi:type="metamodel:Action_invocation"/>
+</metamodel:PssModel>

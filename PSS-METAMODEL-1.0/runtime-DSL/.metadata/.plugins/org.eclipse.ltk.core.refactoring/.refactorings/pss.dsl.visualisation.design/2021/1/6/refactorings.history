@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;pss.dsl.visualisation.design/icons.gif&apos; to &apos;icons&apos;" description="Rename resource &apos;icons.gif&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="icons.gif" name="icons" stamp="1612075126948" updateReferences="true"/>
+</session>

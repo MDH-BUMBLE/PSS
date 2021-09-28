@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metamodel:PssModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:metamodel="http://www.example.org/metamodel">
+  <component_declaration xsi:type="metamodel:Component" Component_identifier="dma_c">
+    <action action_identifier="mem2mem">
+      <object xsi:type="metamodel:Buffer" Object_identifier="data_buff src_buff"/>
+      <object xsi:type="metamodel:Buffer" Object_identifier="data_buff dst_buff" input="false" output="true"/>
+    </action>
+  </component_declaration>
+  <component_declaration xsi:type="metamodel:Component" Component_identifier="new component"/>
+  <action/>
+</metamodel:PssModel>

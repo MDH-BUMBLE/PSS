@@ -1,0 +1,33 @@
+package pss.dsl.visualisation.design;
+
+import org.eclipse.emf.ecore.EObject;
+
+import com.sun.org.apache.bcel.internal.generic.Instruction;
+import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
+
+import sun.applet.Main;
+
+/**
+ * The services class used by VSM.
+ */
+public class Services {
+    
+	public static Instruction getNextInstruction(Instruction element) {
+		EObject container = ((EObject) element).eContainer();
+		if (container instanceof Main) {
+			Object blocks = container.eGet(((EObject) element).eContainingFeature());
+			if (blocks instanceof List) {
+				int size = ((Object) blocks).size();
+				int objectIndex = ((Object)blocks).indexOf(element);
+				if (objectIndex < size - 1) {
+					Object nextElement = ((List) blocks).get(objectIndex+1);
+					if (nextElement instanceof Instruction) {
+						return (Instruction) nextElement;
+					}
+				}
+			}
+		}
+		return null;
+	}
+	
+}
